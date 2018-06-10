@@ -2,6 +2,7 @@ import requests as re
 from bs4 import BeautifulSoup as bs
 from requests.exceptions import RequestException
 from contextlib import closing
+import logging as lg
 
 
 def simple_get(url):
